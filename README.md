@@ -1,2 +1,2 @@
 # fire-emblem-awakening
-Self explanatory
+Pet Project for practicing Express, MongoDB, React, Gulp, Browserify, Babel, Sass, Foundation
