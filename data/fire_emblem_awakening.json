@@ -1,0 +1,34 @@
+{
+    "hed": "Fire Emblem",
+    "dek": "Awakening",
+    "weapons": [
+        {
+            "name": "Bronze Sword",
+            "type": "sword",
+            "rank": "E",
+            "might": 3,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "uses": 50,
+            "exp": null,
+            "price": 350,
+            "affects": null,
+            "notes": null
+        },
+        {
+            "name": "Iron Sword",
+            "type": "sword",
+            "rank": "D",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "uses": 50,
+            "exp": null,
+            "price": 350,
+            "affects": null,
+            "notes": null
+        },
+    ]
+}
