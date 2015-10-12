@@ -1,7 +1,7 @@
 # Build targets
 node_modules/
 bower_components/
-public/stylesheets/
+public/css/
 public/bower_components*
 
 # Databases and such

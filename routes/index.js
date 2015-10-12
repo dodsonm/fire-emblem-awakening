@@ -21,7 +21,7 @@ router.get('/weapon', function(req, res) {
     res.render('weapon', {
         title:'Weapons Guide | Fire Emblem | Awakening',
         credit: 'Matt.Dodson.Digital',
-        msg: 'This is the weapon form page.',
+        msg: 'This is a form.',
         schema: schema
     });
 });

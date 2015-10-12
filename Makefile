@@ -5,7 +5,7 @@ BOWER = $(CURDIR)/node_modules/.bin/bower
 install: node_modules bower_components build
 
 clean:
-	rm -rf ./node_modules/ ./bower_components/ ./public/stylesheets/* #./public/bower_components
+	rm -rf ./node_modules/ ./bower_components/ ./public/css/* #./public/bower_components
 
 node_modules:
 	npm install
