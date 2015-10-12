@@ -1,0 +1,10 @@
+{% macro input(type, name, id, label, value, error) %}
+  <div class="form-field">
+    <label for="{{ name }}">{{ label }}</label>
+    <input
+      type="{{ type }}"
+      name="{{ name }}"
+      id="{{ id }}"
+      value="{{ value }}" />
+  </div>
+{% endmacro %}

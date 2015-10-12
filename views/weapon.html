@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% import 'macros/form.html' as forms %}
+
+{% block head.css %}
+{% endblock head.css %}
+
+{% block body.js %}
+<script src="js/bundle.js"></script>
+{% endblock body.js %}
+
+{% block content %}
+
+<h1>{{ msg }}</h1>
+
+<form>
+{% for f in schema %}
+  {{ forms.input("text", loop.key, loop.key, loop.key|capitalize, "", "") }}
+{% endfor %}
+</form>
+
+{% endblock content %}
